@@ -161,6 +161,12 @@ body.correct {
 .hide {
     display: none;
 }
+#question {
+    font-size: 3em;
+    color:rgb(255, 210, 155);
+    border-bottom:solid 1px #d27c2c;
+    font-weight: bold;
+  }
 #form {
     bottom: 36%;
     left: 20%;
