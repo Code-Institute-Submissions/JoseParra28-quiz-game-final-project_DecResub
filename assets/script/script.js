@@ -91,3 +91,45 @@ function resetState() {
     element.classList.remove('correct')
     element.classList.remove('wrong')
   }
+
+const questions = [
+  
+    {
+      question: 'What kind of icing is typically used to assemble gingerbread houses?',
+      answers: [
+        { text: 'Italian Buttercream', correct: false },
+        { text: 'Royal Icing', correct: true },
+      ]
+    },
+    {
+      question: 'What kind of cheese is traditionally used in making Tiramisu?',
+      answers: [
+        { text: 'Mascarpone', correct: true },
+        { text: 'Blue cheese', correct: false },
+        
+      ]
+    },
+    {
+      question: ' What two flavors make up "Gianduja?"?',
+      answers: [
+        { text: 'Chocolate & Hazelnut', correct: true },
+        { text: 'Chocolate & Coconut', correct: false }
+      ]
+    },
+    {
+      question: 'What is the French term for the dough used to make eclairs?',
+      answers: [
+        
+        { text: 'Mise en place', correct: false },
+        { text: 'Pate a choux', correct: true }
+      ]
+    },
+    {
+      question: 'Julia Child was born in Paris',
+      answers: [
+        { text: 'True', correct: false },
+        { text: 'False', correct: true }
+      ]
+    },
+  ]
+  
