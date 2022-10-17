@@ -394,8 +394,7 @@ animation-delay: 2s;
 
 @media screen and (max-width:950px) {
     .input {
-        width: 97%;
-
+        width: 97%
 }
 .h2-text {
     font-size: 0.6;
@@ -409,6 +408,9 @@ animation-delay: 2s;
 .h2-text {
     font-size: 0.6em;
 
+}
+#question {
+    font-size: 2em;
 }
 .cupcake {
     margin-top: -30%;
@@ -426,5 +428,22 @@ animation-delay: 2s;
         width: 5%;
         z-index: 3;
     }
+    .h2-text {
+        font-size: 0.4em;
+    
+    }
+    .rules {
+        font-size: 1em;
+    }
+    .rules-div .rules-text {
+        font-size: 0.6em;
+    }
+    #countdown {
+        font-size: 0.5em;
+    }
+    #question {
+        font-size: 1em;
+    }
+  
 
 }
