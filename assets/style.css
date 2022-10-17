@@ -161,3 +161,213 @@ body.correct {
 .hide {
     display: none;
 }
+#form {
+    bottom: 36%;
+    left: 20%;
+    right: 20%;
+    justify-content: center;
+    padding: 6% 16%;
+    position:fixed;
+    z-index: 222;
+    background-color: rgba(255,255, 255, 0.1);
+    backdrop-filter: blur(20px);
+    display: inline;
+}
+
+.input {
+    padding: 0%;
+    color: black;
+}
+#username {
+font-size: 2em;
+
+}
+#form h2 {
+    font-size: 2em;
+    justify-content: center;
+    display: flex;
+    padding-bottom: 5%;
+ 
+}
+#form button {
+    background-color: black;
+    color: whitesmoke;
+}
+.cupcake img {
+    width: 50px;
+    animation: cupcake 7s linear infinite;
+    z-index: 2;
+}
+.cupcake {
+    margin-top: -7%;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    top: 0px;
+    left: 20%;
+    padding: 0% 2%;
+    z-index: 3;
+}
+
+@keyframes cupcake {
+    0%{
+        transform: translateY(0);
+        opacity: 0;
+    }
+    50%{
+        
+        opacity: 1;
+    }
+    70%{
+    
+        opacity: 1;
+    }
+    100%{
+        transform: translateY(80vh);
+        opacity: 0;
+    }
+    
+}
+.cupcake img:nth-child(1) {
+animation-delay: 2s;
+}
+.cupcake img:nth-child(2) {
+    animation-delay: 1s;
+    width: 40px;
+    }
+    .cupcake img:nth-child(3) {
+        animation-delay: 3s;
+        width: 90px;
+        }
+        .cupcake img:nth-child(4) {
+            animation-delay: 4.6s;
+            width: 50px;
+            }
+            .cupcake img:nth-child(5) {
+                animation-delay: 7s;
+                }
+                .cupcake img:nth-child(6) {
+                    animation-delay: 5.5s;
+                    width: 70px;
+                    }
+                    .cupcake img:nth-child(7) {
+                        animation-delay: 2s;
+                        }
+                        .cupcake img:nth-child(8) {
+                            animation-delay: 5s;
+                            }
+                            .cupcake img:nth-child(9) {
+                                animation-delay: 2s;
+                                width: 90px;
+                                }
+                                .cupcake img:nth-child(10) {
+                                    animation-delay: 4s;
+                                    width: 50px;
+                                    }
+                                    .cupcake img:nth-child(11) {
+                                        animation-delay: 1s;
+                                        width: 90px;
+                                        }
+                                        .cupcake img:nth-child(12) {
+                                            animation-delay: 2s;
+                                            width: 60px;
+                                            }
+                                            .cupcake img:nth-child(13) {
+                                                animation-delay: 3s;
+                                                width: 40px;
+                                                }
+                                                .cupcake img:nth-child(1) {
+animation-delay: 2s;
+}
+.cupcake img:nth-child(2) {
+    animation-delay: 1s;
+    width: 40px;
+    }
+    .cupcake img:nth-child(3) {
+        animation-delay: 3s;
+        width: 90px;
+        }
+        .cupcake img:nth-child(4) {
+            animation-delay: 4.6s;
+            width: 50px;
+            }
+            .cupcake img:nth-child(5) {
+                animation-delay: 7s;
+                }
+                .cupcake img:nth-child(6) {
+                    animation-delay: 5.5s;
+                    width: 70px;
+                    }
+                    .cupcake img:nth-child(7) {
+                        animation-delay: 2s;
+                        }
+                        .cupcake img:nth-child(8) {
+                            animation-delay: 5s;
+                            }
+                            .cupcake img:nth-child(9) {
+                                animation-delay: 2s;
+                                width: 90px;
+                                }
+                                .cupcake img:nth-child(10) {
+                                    animation-delay: 4s;
+                                    width: 50px;
+                                    }
+                                    .cupcake img:nth-child(11) {
+                                        animation-delay: 1s;
+                                        width: 90px;
+                                        }
+                                        .cupcake img:nth-child(12) {
+                                            animation-delay: 2s;
+                                            width: 60px;
+                                            }
+                                            .cupcake img:nth-child(13) {
+                                                animation-delay: 3s;
+                                                width: 40px;
+                                                }.cupcake img:nth-child(14) {
+                                                    animation-delay: 2s;
+                                                    }
+                                                    .cupcake img:nth-child(15) {
+                                                        animation-delay: 1s;
+                                                        width: 40px;
+                                                        }
+                                                        .cupcake img:nth-child(16) {
+                                                            animation-delay: 3s;
+                                                            width: 90px;
+                                                            }
+                                                            .cupcake img:nth-child(17) {
+                                                                animation-delay: 4.6s;
+                                                                width: 50px;
+                                                                }
+                                                                .cupcake img:nth-child(18) {
+                                                                    animation-delay: 7s;
+                                                                    }
+                                                                    .cupcake img:nth-child(19) {
+                                                                        animation-delay: 5.5s;
+                                                                        width: 70px;
+                                                                        }
+                                                                        .cupcake img:nth-child(20) {
+                                                                            animation-delay: 2s;
+                                                                            }
+                                                                            .cupcake img:nth-child(21) {
+                                                                                animation-delay: 5s;
+                                                                                }
+                                                                                .cupcake img:nth-child(22) {
+                                                                                    animation-delay: 2s;
+                                                                                    width: 90px;
+                                                                                    }
+                                                                                    .cupcake img:nth-child(23) {
+                                                                                        animation-delay: 4s;
+                                                                                        width: 50px;
+                                                                                        }
+                                                                                        .cupcake img:nth-child(24) {
+                                                                                            animation-delay: 1s;
+                                                                                            width: 90px;
+                                                                                            }
+                                                                                            .cupcake img:nth-child(25) {
+                                                                                                animation-delay: 2s;
+                                                                                                width: 60px;
+                                                                                                }
+                                                                                                .cupcake img:nth-child(26) {
+                                                                                                    animation-delay: 3s;
+                                                                                                    width: 40px;
+                                                                                                    }
