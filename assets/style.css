@@ -414,5 +414,17 @@ animation-delay: 2s;
     margin-top: -30%;
 }}
 @media screen and (max-width:480px) {
+    #form {
+        padding: 2% 2%;
+        font-size: 0.7em;
+        bottom: 41%;
+    }
+    .cupcake {
+        top: -48%;
+    }
+    .cupcake img {
+        width: 5%;
+        z-index: 3;
+    }
 
 }
