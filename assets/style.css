@@ -33,5 +33,64 @@ body.correct {
     background-repeat: no-repeat;
     box-shadow: 0 0 10px 1px;
     border-radius: 2%;
+}
+.h2-text {
+    font-size: 1em;
+    border-bottom: 1px solid rgb(21, 20, 20);
+}
+.cloud-section img {
+    position: absolute;
+    width: 100%;
+    overflow: hidden;
+    height: 35vh;
+    width: 100%;
     
+}
+.rules {
+    top: 7%;
+    right: 0%;
+    position: absolute;
+    padding: 2% 11% 3%;
+    width: 40%;
+    font-size: 2.2em;
+}
+.rules-div .rules-text {
+    top: 15%;
+    right: 1%;
+    position: absolute;
+    padding: 2%;
+    width: 40%;
+    font-size: 1.5em;
+    background-color: rgba(154, 149, 149, 0.1);
+    backdrop-filter: blur(20px);
+    border-radius: 1% ;
+    box-shadow: 0 5px 5px rgb(40, 41, 40);
+    opacity: 0;
+    z-index: 2;
+}
+.rules-text span {
+    font-size: 1.5em;
+    color: #133122;
+}
+.rules-div .rules-text:hover {
+    opacity: 1;
+}
+
+.board {
+    top: 6%;
+    left: 0%;
+    position: absolute;
+    padding: 2% 6% 3%;
+    width: 40%;
+    font-size: 2em;
+}
+.board h2, span {
+    justify-content: center;
+    display: flex;
+}
+#countdown {
+    font-size: 1.5em;
+    justify-content: center;
+    display: flex;
+   
 }
