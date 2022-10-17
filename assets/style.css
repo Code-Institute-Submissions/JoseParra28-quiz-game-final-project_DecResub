@@ -92,5 +92,72 @@ body.correct {
     font-size: 1.5em;
     justify-content: center;
     display: flex;
-   
+}
+.container {
+    width: 800px;
+    background-color: #4b7f66;
+    padding: 1% 5%;
+    box-shadow: 0 0 10px 2px;
+    opacity: 7;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(4deg, #d27c2c,transparent);
+    background-repeat: no-repeat;
+    background-color: hsl(var(--hue), 100%, 20%);
+}
+.btn-grid {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 15px;
+    margin: 20px 0;
+}
+
+    .btn {
+        --hue: var(--hue-neutral);
+        border: 1px solid hsl(var(--hue), 100%, 30%);
+        background-color: hsl(var(--hue), 50%, 50%);
+        border-radius: 5px;
+        padding: 1% 5%;
+        color: black;
+        outline: none;
+        font-size: 1.5em;
+      }
+      
+      .btn:hover {
+        border-color: black;
+
+      }
+      
+      .btn.correct {
+        --hue: var(--hue-correct);
+        color: black;
+      }
+      
+      .btn.wrong {
+        --hue: var(--hue-wrong);
+      }
+      
+      .start-btn, .next-btn {
+        font-size: 1.5rem;
+        font-weight: bold;
+        padding: 10px 20px;
+      }
+      
+      .controls {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+.controls {
+     display: flex;
+     justify-content: center;
+     text-align: center;
+}
+
+.hide {
+    display: none;
 }
