@@ -12,7 +12,7 @@ let downloadTimer = setInterval(function(){
     clearInterval(downloadTimer);
     document.getElementById("countdown").innerHTML = "Finished!!!";
   } else {
-    document.getElementById("countdown").innerHTML = timeleft + "Seconds remaining";
+    document.getElementById("countdown").innerHTML = timeleft + "Seconds Remaining";
   }
   timeleft -= 1;
 }, 1000);

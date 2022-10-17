@@ -205,13 +205,14 @@ font-size: 2em;
     z-index: 2;
 }
 .cupcake {
-    margin-top: -7%;
+    margin-top: -10%;
     align-items: center;
     justify-content: space-around;
     position: absolute;
     top: 0px;
-    left: 20%;
-    padding: 0% 2%;
+    left: 13%;
+    right: 13%;
+    padding: 0% ;
     z-index: 3;
 }
 
@@ -378,13 +379,40 @@ animation-delay: 2s;
                                                                                                     width: 40px;
                                                                                                     }
 
-@media screen and (min-width:1200px){
-
+@media screen and (max-width:1200px){
+    #countdown {
+        font-size: 1em;
+    }
+    .h2-text {
+        font-size: 0.6em;
+    
+    }
+    .cupcake {
+        margin-top: -25%;
+    }
 }
 
 @media screen and (max-width:950px) {
+    .input {
+        width: 97%;
 
 }
+.h2-text {
+    font-size: 0.6;
+}
+.rules {
+    font-size: 1.7em;
+}
+.rules-div .rules-text {
+    font-size: 1em;
+}
+.h2-text {
+    font-size: 0.6em;
+
+}
+.cupcake {
+    margin-top: -30%;
+}}
 @media screen and (max-width:480px) {
-    
+
 }
