@@ -379,6 +379,12 @@ animation-delay: 2s;
                                                                                                     width: 40px;
                                                                                                     }
 
+
+@media screen and (min-width:1200px){
+    .cupcake {
+        margin-top: -30%;
+    }
+    }
 @media screen and (max-width:1200px){
     #countdown {
         font-size: 1em;
@@ -388,7 +394,7 @@ animation-delay: 2s;
     
     }
     .cupcake {
-        margin-top: -25%;
+        margin-top: -30%;
     }
 }
 
@@ -413,7 +419,7 @@ animation-delay: 2s;
     font-size: 2em;
 }
 .cupcake {
-    margin-top: -30%;
+    margin-top: -55%;
 }}
 @media screen and (max-width:480px) {
     #form {
