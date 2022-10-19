@@ -1,4 +1,4 @@
-# <img src="assets/script/images/Hero-image-cake.png" alt="hero-image">
+ <img src="assets/script/images/Hero-image-cake.png" alt="hero-image">
 
 ## **CAKE! The Quiz Game is an interactive quiz game for pastry lovers or any user with a basic knowledge of pastry arts.**
 
@@ -37,3 +37,8 @@
 # *Returning Visitor Goals*
 - As a returning visitor, I want have the possibility to spend my spare time playing a fun and educative game.
 
+# Features
+
+## Pregame
+
+- 
