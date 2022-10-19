@@ -24,5 +24,16 @@
 # Wireframe
 ## The over all design of this wedsite is mean to be "cute" and fun to make it appealing to the eye and allow the user gain inmediate interest, my goal was to create a site that is responsive and intuitive, making it easy to navigate and interect.
 
-## Main page
+## **Main page**
 <img src="assets/script/images/wireframe.png" alt="wireframe-home-page">
+
+# User Experience (UX)
+## User stories
+# *First Time Visitor Goals*
+- As a First Time Visitor, I want to find a simple interface to undestand, to allow me play the game and have fun.
+- As a First Time Visitor, I want a personalized experience with the possibility to put my name as user label.
+- As a First Time Visitor, I want to understand how the game works.
+- As a First Time Visitor, I want to learn more about desserts, e.g recipes, method, history, etc.
+# *Returning Visitor Goals*
+- As a returning visitor, I want have the possibility to spend my spare time playing a fun and educative game.
+
