@@ -38,6 +38,8 @@ body.correct {
     font-size: 0.7em;
     border-bottom: 1px solid rgb(21, 20, 20);
     padding: 2%;
+    display: flex;
+    justify-content: center;
 }
 .cloud-section img {
     position: absolute;
