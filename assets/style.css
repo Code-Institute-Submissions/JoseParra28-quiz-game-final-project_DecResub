@@ -99,7 +99,6 @@ body.correct {
     background-color: #4b7f66;
     padding: 1% 5%;
     box-shadow: 0 0 10px 2px;
-    opacity: 7;
     display: flex;
     width: 100vw;
     height: 100vh;
@@ -328,7 +327,7 @@ animation-delay: 2s;
                                     }
                                     .cupcake img:nth-child(11) {
                                         animation-delay: 1s;
-                                        width: 54x;
+                                        
                                         }
                                         .cupcake img:nth-child(12) {
                                             animation-delay: 2s;
@@ -415,7 +414,7 @@ animation-delay: 2s;
         width: 97%
 }
 .h2-text {
-    font-size: 0.6;
+    font-size: 0.6em;
 }
 .rules {
     font-size: 1.7em;
