@@ -53,7 +53,7 @@ body.correct {
     position: absolute;
     padding: 2% 11% 3%;
     width: 40%;
-    font-size: 2.2em;
+    font-size: 1.8em;
 }
 .rules-div .rules-text {
     top: 15%;
@@ -61,7 +61,7 @@ body.correct {
     position: absolute;
     padding: 2%;
     width: 40%;
-    font-size: 1.5em;
+    font-size: 1.2em;
     background-color: rgba(154, 149, 149, 0.1);
     backdrop-filter: blur(20px);
     border-radius: 1% ;
@@ -83,7 +83,7 @@ body.correct {
     position: absolute;
     padding: 2% 6% 3%;
     width: 40%;
-    font-size: 2em;
+    font-size: 1.5em;
 }
 .board h2, span {
     justify-content: center;
@@ -238,6 +238,7 @@ font-size: 2em;
 }
 .cupcake img:nth-child(1) {
 animation-delay: 2s;
+width: 10px;
 }
 .cupcake img:nth-child(2) {
     animation-delay: 1s;
@@ -245,7 +246,7 @@ animation-delay: 2s;
     }
     .cupcake img:nth-child(3) {
         animation-delay: 3s;
-        width: 90px;
+        width: 31px;
         }
         .cupcake img:nth-child(4) {
             animation-delay: 4.6s;
@@ -253,20 +254,23 @@ animation-delay: 2s;
             }
             .cupcake img:nth-child(5) {
                 animation-delay: 7s;
+                width: 38px;
                 }
                 .cupcake img:nth-child(6) {
                     animation-delay: 5.5s;
-                    width: 70px;
+                    width: 60px;
                     }
                     .cupcake img:nth-child(7) {
                         animation-delay: 2s;
+                        width: 25px;
                         }
                         .cupcake img:nth-child(8) {
                             animation-delay: 5s;
+                            width: 35px;
                             }
                             .cupcake img:nth-child(9) {
                                 animation-delay: 2s;
-                                width: 90px;
+                                width: 30px;
                                 }
                                 .cupcake img:nth-child(10) {
                                     animation-delay: 4s;
@@ -274,11 +278,11 @@ animation-delay: 2s;
                                     }
                                     .cupcake img:nth-child(11) {
                                         animation-delay: 1s;
-                                        width: 90px;
+                                        width: 40px;
                                         }
                                         .cupcake img:nth-child(12) {
                                             animation-delay: 2s;
-                                            width: 60px;
+                                            width: 30px;
                                             }
                                             .cupcake img:nth-child(13) {
                                                 animation-delay: 3s;
@@ -293,7 +297,7 @@ animation-delay: 2s;
     }
     .cupcake img:nth-child(3) {
         animation-delay: 3s;
-        width: 90px;
+        width: 62px;
         }
         .cupcake img:nth-child(4) {
             animation-delay: 4.6s;
@@ -304,17 +308,19 @@ animation-delay: 2s;
                 }
                 .cupcake img:nth-child(6) {
                     animation-delay: 5.5s;
-                    width: 70px;
+                    width: 65px;
                     }
                     .cupcake img:nth-child(7) {
                         animation-delay: 2s;
+                        width: 63px;
                         }
                         .cupcake img:nth-child(8) {
                             animation-delay: 5s;
+                            width: 61px;
                             }
                             .cupcake img:nth-child(9) {
                                 animation-delay: 2s;
-                                width: 90px;
+                                width: 25px;
                                 }
                                 .cupcake img:nth-child(10) {
                                     animation-delay: 4s;
@@ -322,7 +328,7 @@ animation-delay: 2s;
                                     }
                                     .cupcake img:nth-child(11) {
                                         animation-delay: 1s;
-                                        width: 90px;
+                                        width: 54x;
                                         }
                                         .cupcake img:nth-child(12) {
                                             animation-delay: 2s;
@@ -340,7 +346,7 @@ animation-delay: 2s;
                                                         }
                                                         .cupcake img:nth-child(16) {
                                                             animation-delay: 3s;
-                                                            width: 90px;
+                                                            width: 30px;
                                                             }
                                                             .cupcake img:nth-child(17) {
                                                                 animation-delay: 4.6s;
@@ -351,17 +357,19 @@ animation-delay: 2s;
                                                                     }
                                                                     .cupcake img:nth-child(19) {
                                                                         animation-delay: 5.5s;
-                                                                        width: 70px;
+                                                                        width: 20px;
                                                                         }
                                                                         .cupcake img:nth-child(20) {
                                                                             animation-delay: 2s;
+                                                                            width: 15px;
                                                                             }
                                                                             .cupcake img:nth-child(21) {
                                                                                 animation-delay: 5s;
+                                                                                width: 25px;
                                                                                 }
                                                                                 .cupcake img:nth-child(22) {
                                                                                     animation-delay: 2s;
-                                                                                    width: 90px;
+                                                                                    width: 30px;
                                                                                     }
                                                                                     .cupcake img:nth-child(23) {
                                                                                         animation-delay: 4s;
@@ -369,11 +377,11 @@ animation-delay: 2s;
                                                                                         }
                                                                                         .cupcake img:nth-child(24) {
                                                                                             animation-delay: 1s;
-                                                                                            width: 90px;
+                                                                                            width: 50px;
                                                                                             }
                                                                                             .cupcake img:nth-child(25) {
                                                                                                 animation-delay: 2s;
-                                                                                                width: 60px;
+                                                                                                width: 30px;
                                                                                                 }
                                                                                                 .cupcake img:nth-child(26) {
                                                                                                     animation-delay: 3s;
@@ -384,6 +392,9 @@ animation-delay: 2s;
 @media screen and (min-width:1200px){
     .cupcake {
         margin-top: -30%;
+    }
+    #form {
+        bottom: 18%;
     }
     }
 @media screen and (max-width:1200px){
@@ -426,7 +437,7 @@ animation-delay: 2s;
     #form {
         padding: 2% 2%;
         font-size: 0.7em;
-        bottom: 41%;
+        bottom: 28%;
     }
     .cupcake {
         top: -48%;
