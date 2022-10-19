@@ -35,8 +35,9 @@ body.correct {
     border-radius: 2%;
 }
 .h2-text {
-    font-size: 1em;
+    font-size: 0.7em;
     border-bottom: 1px solid rgb(21, 20, 20);
+    padding: 2%;
 }
 .cloud-section img {
     position: absolute;
@@ -162,13 +163,13 @@ body.correct {
     display: none;
 }
 #question {
-    font-size: 3em;
+    font-size: 2em;
     color:rgb(255, 210, 155);
     border-bottom:solid 1px #d27c2c;
     font-weight: bold;
   }
 #form {
-    bottom: 36%;
+    bottom: 28%;
     left: 20%;
     right: 20%;
     justify-content: center;
