@@ -1,6 +1,8 @@
 # <img src="assets/script/images/Hero-image-cake.png" alt="hero-image">
 
-CAKE! The Quiz Game is an interactive quiz game for pastry lovers or any user with a basic knowledge of pastry arts.
+## **CAKE! The Quiz Game is an interactive quiz game for pastry lovers or any user with a basic knowledge of pastry arts.**
+
+<img src="assets/script/images/Am-i-responsive.png" alt="Am-i-responsive">
 
 # Strategy Plane
 
@@ -19,4 +21,8 @@ CAKE! The Quiz Game is an interactive quiz game for pastry lovers or any user wi
 - Any one  who has an interest in the pastry world. 
 - Kids or adults of all ages.
 
-# 
+# Wireframe
+## The over all design of this wedsite is mean to be "cute" and fun to make it appealing to the eye and allow the user gain inmediate interest, my goal was to create a site that is responsive and intuitive, making it easy to navigate and interect.
+
+## Main page
+<img src="assets/script/images/wireframe.png" alt="wireframe-home-page">
