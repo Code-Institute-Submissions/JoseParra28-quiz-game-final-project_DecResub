@@ -41,4 +41,31 @@
 
 ## Pregame
 
-- 
+The first feature of this game is that the user has the oportinity to create a "Cool Username" giving them the change to make this game more personal and fun. 
+<img src="assets/script/images/form-imput.png" alt="form1">
+
+# The Banner
+
+The second feature is the personalize banner, where the tittle, hero image, game rules and timer can be easily found. 
+I have created my own tittle by creating a hero image using blender (A 3D software), i wanted to make the tille fun and appealing to the eye. 
+I have called this game the way i did was because of a personal it means a lot to me. As I am changin career from a pastry chef to software developer i wanted to incorpora these two thing together. (Cake) I too it from my pastry chef days, the closing tags have the meaning that i have closed that chapter of my life and the exclamation mark comes from the moment you type (!) when starting a new HTML file which means a new beginning. 
+
+## Timer
+I have incorporated a timer to make this game more challenging. 
+<img src="assets/script/images/timer.png" alt="timer">
+
+## Game Rules
+
+I incorporated Game Rules easy the access with a hover effect, games rules can be found at any starge of the game. 
+<img src="assets/script/images/game-rules.png" alt="game-rules">
+
+## Right or Wrong answer feedback 
+
+I have created an easy way to give the user feedback. if they click the right answer, backward screen will turn Green, and if they click the wrong answer, backward screen will turn Red, the user will also be indicated which one is the right answer if the choose their answer isn't correct, they will know this by looking at the button's color. 
+<img src="assets/script/images/right-answer.png" alt="right-answer">
+<img src="assets/script/images/wrong-answer.png" alt="wrong">
+
+
+
+
+
