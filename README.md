@@ -6,7 +6,7 @@
 
 # Strategy Plane
 
-- This interactive game's goal is to be fun, visually apealling to the eyes and also a little bit challenging. This game has 3 back gound colours, blue as a deafult color, green that indicates that the user has chosen the right anwers and red indicates that the anwers was incorrect. On top of this i have included an orange linear gradient background color and all together makes it look like a sky a the "heat of the oven". the
+- This interactive game's goal is to be fun, visually apealling to the eyes and also a little bit challenging. This game has 3 backgound colours: Blue as a deafult color, Green that indicates that the user has chosen the right anwer and Red indicates that the anwers was incorrect.
 
 # Wedsite goals
 
@@ -22,7 +22,7 @@
 - Kids or adults of all ages.
 
 # Wireframe
-## The over all design of this wedsite is mean to be "cute" and fun to make it appealing to the eye and allow the user gain inmediate interest, my goal was to create a site that is responsive and intuitive, making it easy to navigate and interect.
+## The over all design of this wedsite is mean to be "cute" and fun to make it appealing to the eye and allow the user gain inmediate interest, my goal was to create a site that is responsive and intuitive, making it easy to navigate and interact.
 
 ## **Main page**
 <img src="assets/script/images/wireframe.png" alt="wireframe-home-page">
@@ -56,7 +56,7 @@ The orange represents the heat of the oven. i used the linear gradient property 
 
 The second feature is the personalize banner, where the tittle, hero image, game rules and timer can be easily found. 
 I have created my own tittle by creating a hero image using blender (A 3D software), i wanted to make the tille fun and appealing to the eye. 
-I have called this game the way i did was because of a personal it means a lot to me. As I am changin career from a pastry chef to software developer i wanted to incorpora these two thing together. (Cake) I too it from my pastry chef days, the closing tags have the meaning that i have closed that chapter of my life and the exclamation mark comes from the moment you type (!) when starting a new HTML file which means a new beginning. 
+I have called this game the way i did was because of a personal level it means quiet a lot to me. As I am changing career from a pastry chef to software developer i wanted to incorporate these two thing together. The name (</Cake!>) was inpired by my pastry chef days, the closing tags represent the closure of that chapter of my life as i am no longer a pastry chef and the exclamation mark represent the moment you type (!) when starting a new HTML file which means, new beginning to the software world. 
 
 ## Timer
 I have incorporated a timer to make this game more challenging. 
@@ -64,7 +64,7 @@ I have incorporated a timer to make this game more challenging.
 
 ## Game Rules
 
-I incorporated Game Rules easy the access with a hover effect, games rules can be found at any starge of the game. 
+I incorporated Game Rules easy the access with a hover effect, games rules can be found at any stage of the game. 
 <img src="assets/script/images/game-rules.png" alt="game-rules">
 
 ## Right or Wrong answer feedback 
@@ -88,6 +88,9 @@ I have created an easy way to give the user feedback. if they click the right an
    - Function with the largest signature take 2 arguments, while the median is 0.5.
    - Largest function has 8 statements in it, while the median is 2.
    - The most complex function has a cyclomatic complexity value of 2 while the median is 1.
+
+# Accessibility
+- I confirm that after passing through the Lighthouse in devtool the font choose is clearly readable.
 
 # Performance
 <img src="assets/script/images/performance.png" alt="peformance">
@@ -115,8 +118,14 @@ I have created an easy way to give the user feedback. if they click the right an
 # Media
 - All images were created by myself usin Blender
 
+# Favicon
+- Favicon was created by mymyself using Blender
+<img src="assets/script/images/Donut-logo-favicon.png" alt="favicon">
+
+
 # Reference Material
-- Used W3School to deepen some topic for site improving such as timer, funtions, and hidding content.
+- Used W3School to deepen some topic for site improving such as Javascript timer, funtions, and hidding content.
+- I used W3 School to learn about CSS animations ans hover effects.
 
 # Acknowledgements
 I would like to thank my mentor Jubril Akolade who providel mentoring during the development of this project giving me valuable advice on how improve the site from start to finish.
