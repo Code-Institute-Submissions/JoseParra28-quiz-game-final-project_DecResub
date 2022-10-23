@@ -129,6 +129,8 @@ I have created an easy way to give the user feedback. if they click the right an
 # Reference Material
 - Used W3School to deepen some topic for site improving such as Javascript timer, funtions, and hidding content.
 - I used W3 School to learn about CSS animations ans hover effects.
+- I use Udemy online school to lear how to create £d images on Blender
+<img src="assets/script/images/blender-image.png" alt="Blender image">
 
 # Acknowledgements
 I would like to thank my mentor Jubril Akolade who providel mentoring during the development of this project giving me valuable advice on how improve the site from start to finish.
