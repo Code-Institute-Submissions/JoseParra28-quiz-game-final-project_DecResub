@@ -37,12 +37,20 @@
 # *Returning Visitor Goals*
 - As a returning visitor, I want have the possibility to spend my spare time playing a fun and educative game.
 
-# Features
+## Features
 
-## Pregame
+# Pregame
 
 The first feature of this game is that the user has the oportinity to create a "Cool Username" giving them the change to make this game more personal and fun. 
 <img src="assets/script/images/form-imput.png" alt="form1">
+
+# Game Section
+
+I made the game section minimalistic and fun, keeping a color theme. 
+Blue replesents the "Sky" and with an added animation, it looks like is raining Donuts. 
+The orange represents the heat of the oven. i used the linear gradient property to combime the two together and maintain a cohesive site.
+
+<img src="assets/script/images/game-section.png" alt="game-section">
 
 # The Banner
 
