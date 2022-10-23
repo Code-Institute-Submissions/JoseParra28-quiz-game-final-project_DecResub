@@ -5,7 +5,7 @@ const questionElement = document.getElementById('question')
 const answerButtonsElement = document.getElementById('answer-buttons')
 
 let shuffledQuestions, currentQuestionIndex
-
+/* timer */
 let timeleft = 90;
 let downloadTimer = setInterval(function(){
   if(timeleft <= 0){
@@ -16,7 +16,7 @@ let downloadTimer = setInterval(function(){
   }
   timeleft -= 1;
 }, 1000);
-
+/* Start button */
 startButton.addEventListener('click', startGame)
 nextButton.addEventListener('click', () => {
   currentQuestionIndex++
@@ -27,7 +27,7 @@ startButton.addEventListener('click', startGame)
 function setVisibility(id,Visibility){
   document.getElementById(id).style.display=Visibility
 }
-
+/* hide funtion */
 function startGame() {
   startButton.classList.add('hide')
   shuffledQuestions = questions.sort(() => Math.random() - .5)
@@ -35,7 +35,7 @@ function startGame() {
   questionContainerElement.classList.remove('hide')
   setNextQuestion()
 }
-
+/* next question funtion */
 function setNextQuestion() {
   resetState()
   showQuestion(shuffledQuestions[currentQuestionIndex])
@@ -91,7 +91,7 @@ function resetState() {
     element.classList.remove('correct')
     element.classList.remove('wrong')
   }
-
+/* Questions */
 const questions = [
   
     {

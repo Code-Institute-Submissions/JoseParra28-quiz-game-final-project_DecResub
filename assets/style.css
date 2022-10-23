@@ -3,7 +3,7 @@
     box-sizing: border-box;
     font-family:'Courier New', Courier, monospace;
 } 
-
+/* background colors */
 :root {
     --hue-neutral: 204;
     --hue-wrong: 0;
@@ -21,6 +21,7 @@ body.correct {
   body.wrong {
     --hue: var(--hue-wrong);
   }
+  /* hero image, heater  */
 .hero-image {
     top: 8%;
     padding: 0% 39%;
@@ -41,6 +42,7 @@ body.correct {
     display: flex;
     justify-content: center;
 }
+/* cloud section */
 .cloud-section img {
     position: absolute;
     width: 100%;
@@ -49,6 +51,7 @@ body.correct {
     width: 100%;
     
 }
+/* Rules and timer section */
 .rules {
     top: 7%;
     right: 0%;
@@ -96,6 +99,7 @@ body.correct {
     justify-content: center;
     display: flex;
 }
+/* main game section */
 .container {
     width: 800px;
     background-color: #4b7f66;
@@ -169,6 +173,7 @@ body.correct {
     border-bottom:solid 1px #d27c2c;
     font-weight: bold;
   }
+  /* Form section*/
 #form {
     bottom: 28%;
     left: 20%;
@@ -201,6 +206,7 @@ font-size: 2em;
     background-color: black;
     color: whitesmoke;
 }
+/* Animation */
 .cupcake img {
     width: 50px;
     animation: cupcake 7s linear infinite;
@@ -389,7 +395,7 @@ animation-delay: 2s;
                                                                                                     width: 40px;
                                                                                                     }
 
-
+/* Media quries */ 
 @media screen and (min-width:1200px){
     .cupcake {
         margin-top: -30%;

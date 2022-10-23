@@ -70,7 +70,10 @@ I incorporated Game Rules easy the access with a hover effect, games rules can b
 ## Right or Wrong answer feedback 
 
 I have created an easy way to give the user feedback. if they click the right answer, backward screen will turn Green, and if they click the wrong answer, backward screen will turn Red, the user will also be indicated which one is the right answer if the choose their answer isn't correct, they will know this by looking at the button's color. 
+## Right answer
 <img src="assets/script/images/right-answer.png" alt="right-answer">
+
+## Wrong answer
 <img src="assets/script/images/wrong-answer.png" alt="wrong">
 
 # Testing
@@ -116,7 +119,7 @@ I have created an easy way to give the user feedback. if they click the right an
 - Cloud image was taken from Youtuber "Online Tutorials": https://www.youtube.com/watch?v=FWW38GuIo7M
 
 # Media
-- All images were created by myself usin Blender
+- All images were created by myself using Blender
 
 # Favicon
 - Favicon was created by mymyself using Blender
