@@ -73,6 +73,41 @@ I have created an easy way to give the user feedback. if they click the right an
 <img src="assets/script/images/right-answer.png" alt="right-answer">
 <img src="assets/script/images/wrong-answer.png" alt="wrong">
 
+# Testing
+## Validator tasting 
+
+- HTML
+   - Tested the code returning 0 errors https://validator.w3.org/nu/#textarea
+
+- CSS
+   - Tested the code returning 0 errors https://jigsaw.w3.org/css-validator/validator
+
+- JavaScript
+   - Tested the code returning 0 errors.
+   - There are 17 funtions in this file.
+   - Function with the largest signature take 2 arguments, while the median is 0.5.
+   - Largest function has 8 statements in it, while the median is 2.
+   - The most complex function has a cyclomatic complexity value of 2 while the median is 1.
+
+# Performance
+<img src="assets/script/images/performance.png" alt="peformance">
+
+# Bugs
+- No bugs were found during this project
+
+# Deployment
+- The site was deployed to GitHub pages. The steps to deploy are as follows:
+   - In the GitHub repository, navigate to the Settings tab
+   - From the source section drop-down menu, select the Pages
+   - Once the Pages has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+## Link
+
+ - The live link can be found here: https://joseparra28.github.io/quiz-game-final-project/
+
+
+
+
+
 
 
 
