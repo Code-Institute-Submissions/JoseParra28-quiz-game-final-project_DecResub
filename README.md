@@ -104,6 +104,24 @@ I have created an easy way to give the user feedback. if they click the right an
 
  - The live link can be found here: https://joseparra28.github.io/quiz-game-final-project/
 
+ # Credits
+## Content
+
+- The code for the quiz game was inpired by Youtuber Web Dev Simplified: https://www.youtube.com/watch?v=riDzcEQbX6k&t=1061s
+- Font familly was taken from Google fonts.
+- Tutorials of how to use Blender were from: https://www.youtube.com/c/BlenderGuruOfficial
+- Cloud image was taken from Youtuber "Online Tutorials": https://www.youtube.com/watch?v=FWW38GuIo7M
+
+# Media
+- All images were created by myself usin Blender
+
+# Reference Material
+- Used W3School to deepen some topic for site improving such as timer, funtions, and hidding content.
+
+# Acknowledgements
+I would like to thank my mentor Jubril Akolade who providel mentoring during the development of this project giving me valuable advice on how improve the site from start to finish.
+
+
 
 
 
