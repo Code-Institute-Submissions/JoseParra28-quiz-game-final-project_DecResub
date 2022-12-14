@@ -18,12 +18,19 @@
             <img src="assets/images/Hero-image-cake.png" alt="hero-image">
             <h2 class="h2-text">The Quiz Game</h2>
         </div>
+
    <div class="cloud-section">
        <img src="assets/images/cloud1.png" alt="clouds">
     </div>
+
 </header>
  <!-- Game rules and timer -->
 <section id="info-section">
+
+    <div class="question-count-container">
+        <p>Queation <span id="question-count">1</span> / <span id="question-length"></span> </p>
+    </div>
+
     <div class="rules-div">
            <h2 class="rules">Game rules</h2>
            <p class="rules-text">You will have a quiestion before you, if you chooce the right answer, the screen will turn Green but if the screen turns Red, that mean you clicked the wrong answer. <span id="good-luck">Good luck!</span></p>
@@ -56,16 +63,16 @@
 
         <section id="form-section">
             <div id="form" >
-            <form action="?" method="GET" id="hide"  >
+            <form id="hide">
                 <h2>Welcome to Cake! The Quiz Game</h2>
                 <label class="form" for="username">CREATE A COOL USERNAME</label>
                 <input  id="username" class="input" name="username" placeholder="Username" type="text" required>
-                <button type="button" name="t1" value="Submit"
-                onclick="setVisibility('form','none')">Submit</button>
+              <button type="button" name="t1" value="Submit"
+                onclick="setVisibility()">Submit</button>
             </form>
         </div>
     </section>
- <!-- Animation -->
+<!-- Animation -->
     <div class="cupcake">
         
         <img src="assets/images/Donut.png" alt="donut">
