@@ -7,6 +7,7 @@ let questionCount = document.getElementById("question-count")
 const username = document.getElementById("username")
 
 
+
 let shuffledQuestions, currentQuestionIndex
 /* timer */
 let timeleft = 90;
@@ -102,6 +103,9 @@ function setStatusClass(element, correct) {
   clearStatusClass(element)
   if (correct) {
     element.classList.add('correct')
+    if ('correct') {
+      document.getElementById('answer-buttons').style.visibility = 'hidden';
+    }
   } else {
     element.classList.add('wrong')
   }
@@ -182,3 +186,4 @@ const questions = [
 
 let questionLength = document.getElementById("question-length")
 questionLength.innerText = questions.length
+
