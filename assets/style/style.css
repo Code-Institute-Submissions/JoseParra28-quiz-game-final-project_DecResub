@@ -81,7 +81,20 @@ body.correct {
 .rules-div .rules-text:hover {
     opacity: 1;
 }
-
+.question-count-container {
+    top: 27%;
+    right: 19%;
+    position: absolute;
+    padding: 2%;
+    width: 40%;
+    font-size: 1.2em;
+}
+#question-count {
+    color: red;
+}
+#question-length {
+    color: lawngreen;
+}
 .board {
     top: 8%;
     left: 0%;
