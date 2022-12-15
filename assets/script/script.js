@@ -104,7 +104,10 @@ function setStatusClass(element, correct) {
   if (correct) {
     element.classList.add('correct')
     if ('correct') {
-      document.getElementById('answer-buttons').style.visibility = 'hidden';
+      document.getElementById('answer-buttons').style.visibility = 'vivible';
+    }
+    else if ('correct') {
+      document.getElementById('correct, wrong').style.visibility = 'hidden';
     }
   } else {
     element.classList.add('wrong')

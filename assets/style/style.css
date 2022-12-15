@@ -83,17 +83,24 @@ body.correct {
 }
 .question-count-container {
     top: 27%;
-    right: 19%;
+    right: 22%;
     position: absolute;
     padding: 2%;
     width: 40%;
     font-size: 1.2em;
 }
-#question-count {
-    color: red;
-}
-#question-length {
+/* #question-count {
+    position: relative;
+    margin: 9%;
+    font-size: 2em;
+    left: -14%;
+} */
+#question-length, #question-count {
     color: lawngreen;
+    position: fixed;
+    display: contents;
+    left: 44%;
+    font-size: 2em;
 }
 .board {
     top: 8%;
@@ -162,7 +169,10 @@ body.correct {
       .start-btn, .next-btn {
         font-size: 1.5rem;
         font-weight: bold;
-        padding: 10px 20px;
+        padding: 35px 50px;
+        bottom: 29%;
+        right: 42%;
+        position: fixed;
       }
       
       .controls {
