@@ -17,6 +17,7 @@
         <div class="hero-image">
             <img src="assets/images/Hero-image-cake.png" alt="hero-image">
             <h2 class="h2-text">The Quiz Game</h2>
+            <span>Game over</span>
         </div>
 
    <div class="cloud-section">
@@ -57,13 +58,15 @@
     
         <div class="start">
             <input type="submit" value="Restart" class="start-btn btn" id="start-btn"  onsubmit="showGame()">
+            
         </div>
     </div>
     <!-- form section -->
 
-        <!-- <section id="form-section">
+        <section id="form-section">
             <div id="form" >
             <form id="hide">
+                <span id="message">"Please enter your name"</span>
                 <h2>Welcome to Cake! The Quiz Game</h2>
                 <label class="form" for="username">CREATE A COOL USERNAME</label>
                 <input  id="username" class="input" name="username" placeholder="Username" type="text" required>
@@ -71,7 +74,12 @@
                 onclick="setVisibility()">Submit</button>
             </form>
         </div>
-    </section> -->
+    </section>
+    <div id="game-over" class="start">
+        <span>Game over</span>
+        <input type="submit" value="Restart" class="start-btn btn" id="start-btn"  onsubmit="showGame()">
+
+    </div>
 <!-- Animation -->
     <div class="cupcake">
         

@@ -5,36 +5,27 @@ const questionElement = document.getElementById('question')
 const answerButtonsElement = document.getElementById('answer-buttons')
 let questionCount = document.getElementById("question-count")
 const username = document.getElementById("username")
+const validateMessage = document.getElementById("message")
+const gameOver = document.getElementById('game-over')
 
 
 
 let shuffledQuestions, currentQuestionIndex
-/* timer */
-let timeleft = 90;
-let downloadTimer = setInterval(function () {
-  if (timeleft <= 0) {
-    clearInterval(downloadTimer);
-    alert("game over")
-    document.getElementById("countdown").innerHTML = "Finished!!!";
-  } else {
-    document.getElementById("countdown").innerHTML = timeleft + "Seconds Remaining";
 
-
-  }
-  timeleft -= 1;
-}, 1000);
 /* Start button */
-//startButton.addEventListener('click', startGame)
+startButton.addEventListener('click', startGame)
 nextButton.addEventListener('click', () => {
   questionCount.innerText = parseInt(questionCount.innerText) + 1
   currentQuestionIndex++
   setNextQuestion()
 })
-startButton.addEventListener('click', startGame)
+
+document.getElementById("message").style.display = "none";
+document.getElementById("game-over").style.display = "none";
 
 function validateForm() {
   if (username.value.trim() == "") {
-    alert("Enter your name");
+    document.getElementById("message").style.display = "flex";
     return false;
   } else {
     const formSection = document.getElementById("form-section")
@@ -47,6 +38,7 @@ function validateForm() {
 function setVisibility() {
   validateForm()
 }
+
 /* hide funtion */
 function startGame() {
   startButton.classList.add('hide')
@@ -189,4 +181,24 @@ const questions = [
 
 let questionLength = document.getElementById("question-length")
 questionLength.innerText = questions.length
+
+/* timer */
+let timeleft = 5;
+let downloadTimer = setInterval(function () {
+  if (timeleft <= 0) {
+    clearInterval(downloadTimer);
+    document.getElementById("game-over").style.display = "flex";
+    startButton.addEventListener('click', startGame)
+   
+    // window.location.reload();
+    startGame()
+    
+    document.getElementById("countdown").innerHTML = "Game over";
+  } else {
+    document.getElementById("countdown").innerHTML = timeleft + "Seconds Remaining";
+
+
+  }
+  timeleft -= 1;
+}, 1000);
 
