@@ -28,9 +28,9 @@
 <section id="info-section">
 
     <div class="question-count-container">
-        <p>You have answered...<span id="question-count">1</span> 
+        <p>You have answered...<span id="question-count">0</span> 
             <span id="question-length"></span> </p>
-            
+
 
     </div>
 
@@ -48,8 +48,8 @@
             <div id="question-container" class="hide">
             <div id="question">Question</div>
             <div id="answer-buttons" class="btn-grid">
-            <button  id="btn-answer" onClick="action();">Answer 1</button >
-            <button id="btn-answer" onClick="action();" >Answer 2</button >
+            <button  id="btn-answer-1">Answer 1</button >
+            <button id="btn-answer-2" >Answer 2</button >
         </div>
        <div class="controls">
                 <button id="next-btn" class="next-btn btn hide">Next</button>
@@ -60,16 +60,16 @@
             <input type="submit" value="Restart" class="start-btn btn" id="start-btn"  onsubmit="showGame()">
         </div>
     </div>
-    form section -->
+    <!-- form section  -->
 
-         <section id="form-section">
+         <section>
             <div id="form" >
             <form id="hide">
                 <span id="message">Please enter you name!</span>
                 <h2>Welcome to Cake! The Quiz Game</h2>
                 <label class="form" for="username">CREATE A COOL USERNAME</label>
                 <input  id="username" class="input" name="username" placeholder="Username" type="text" required>
-              <button type="button" name="t1" value="Submit"
+              <button id="form-button" type="button" name="t1" value="Submit"
                 onclick="setVisibility()">Submit</button>
             </form>
         </div>

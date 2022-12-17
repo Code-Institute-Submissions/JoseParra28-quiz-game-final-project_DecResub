@@ -89,12 +89,12 @@ body.correct {
     width: 40%;
     font-size: 1.2em;
 }
-/* #question-count {
+#question-count {
     position: relative;
     margin: 9%;
     font-size: 2em;
     left: -14%;
-} */
+}
 #question-length, #question-count {
     color: lawngreen;
     position: fixed;
@@ -172,7 +172,7 @@ body.correct {
         padding: 35px 50px;
         bottom: 29%;
         right: 42%;
-        position: fixed;
+        position: absolute;
       }
       
       .controls {
@@ -198,16 +198,20 @@ body.correct {
   }
   /* Form section*/
 #form {
-    bottom: 28%;
-    left: 20%;
-    right: 20%;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+    top: 0%;
     justify-content: center;
-    padding: 6% 16%;
+    padding: 20% 2%;
     position:fixed;
     z-index: 222;
     background-color: rgba(255,255, 255, 0.1);
     backdrop-filter: blur(20px);
-    display: inline;
+    display: flex;
+}
+label form {
+    color: red;
 }
 #message {
 font-size: 2em;
@@ -216,21 +220,34 @@ font-size: 2em;
 .input {
     padding: 0%;
     color: black;
+    width: 25%;
 }
 #username {
-font-size: 2em;
+font-size: 1.5em;
 
 }
 #form h2 {
-    font-size: 2em;
+    font-size: 1em;
     justify-content: center;
     display: flex;
     padding-bottom: 5%;
  
 }
-#form button {
-    background-color: black;
-    color: whitesmoke;
+#form-button {
+    border: 1px solid hsl(var(--hue), 100%, 30%);
+    background-color: hsl(var(--hue), 50%, 50%);
+    border-radius: 5px;
+    padding: 1% 1%;
+    color: black;
+    outline: none;
+    font-size: 1.2em;
+    
+  }
+  
+  .btn:hover {
+    border-color: black;
+    /* background-color: black;
+    color: whitesmoke; */
 }
 
 /* Animation */
@@ -427,10 +444,9 @@ animation-delay: 2s;
     .cupcake {
         margin-top: -30%;
     }
-    #form {
-        bottom: 18%;
+    
     }
-    }
+    
 @media screen and (max-width:1200px){
     #countdown {
         font-size: 1em;
@@ -469,9 +485,9 @@ animation-delay: 2s;
 }}
 @media screen and (max-width:480px) {
     #form {
-        padding: 2% 2%;
+        padding: 50% 2%;
         font-size: 0.7em;
-        bottom: 28%;
+        
     }
     .cupcake {
         top: -48%;
@@ -497,5 +513,23 @@ animation-delay: 2s;
         font-size: 1em;
     }
   
-
+    .question-count-container {
+        top: 19%;
+        right: 25%;
+        font-size: 70%;
+        width: 47%;
+    }
+    #question-count {
+        
+        font-size: 70%;
+    }
+    #question-length, #question-count {
+        font-size: 70%;
+    }
+    .start-btn, .next-btn {
+        font-size: 1rem;
+        padding: 9px 50px;
+        position: absolute;
+        right: 27%;
+    }
 }

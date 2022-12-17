@@ -21,8 +21,9 @@ nextButton.addEventListener('click', () => {
 startButton.addEventListener('click', startGame)
 
 /* timer */
-let timeleft = 15;
+let timeleft = 30;
 let downloadTimer = setInterval(function () {
+  
   if (timeleft <= 0) {
     clearInterval(downloadTimer);
     window.location.reload();
@@ -42,7 +43,7 @@ function validateForm() {
     document.getElementById("message").style.display = "flex";
     return false;
   } else {
-    const formSection = document.getElementById("form-section")
+    const formSection = document.getElementById("form")
     formSection.style.display = 'none'
     startGame()
     
@@ -164,7 +165,7 @@ const questions = [
     ]
   },
   {
-    question: 'What is pectin NH?',
+    question: 'What is Pectin NH?',
     answers: [{
         text: 'Raising agent',
         correct: false
