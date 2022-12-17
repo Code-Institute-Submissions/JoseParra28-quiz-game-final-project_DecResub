@@ -1,8 +1,8 @@
- <img src="assets/script/images/Hero-image-cake.png" alt="hero-image">
+<img src="assets/images/Hero-image-cake.png" alt="hero-image">
 
 ## **CAKE! The Quiz Game is an interactive quiz game for pastry lovers or any user with a basic knowledge of pastry arts.**
 
-<img src="assets/script/images/Am-i-responsive.png" alt="Am-i-responsive">
+<img src="assets/images/Screenshot-am-i-responsive.png" alt="Am-i-responsive">
 
 # Strategy Plane
 
@@ -25,7 +25,7 @@
 ## The over all design of this wedsite is mean to be "cute" and fun to make it appealing to the eye and allow the user gain inmediate interest, my goal was to create a site that is responsive and intuitive, making it easy to navigate and interact.
 
 ## **Main page**
-<img src="assets/script/images/wireframe.png" alt="wireframe-home-page">
+<img src="assets/images/wireframe.png" alt="wireframes">
 
 # User Experience (UX)
 ## User stories
@@ -42,15 +42,20 @@
 # Pregame
 
 The first feature of this game is that the user has the oportinity to create a "Cool Username" giving them the change to make this game more personal and fun. 
-<img src="assets/script/images/form-imput.png" alt="form1">
+- I have created a validated for, the user can not access the game without typing at least one letter.
+and if they click the Submit button, they will get a message to type their name
+<img src="assets/images/Screenshot-form.png" alt="form-input">
 
 # Game Section
 
 I made the game section minimalistic and fun, keeping a color theme. 
 Blue replesents the "Sky" and with an added animation, it looks like is raining Donuts. 
 The orange represents the heat of the oven. i used the linear gradient property to combime the two together and maintain a cohesive site.
+- I have included a quiestion count, so that the user can keep track of how many questions are in the game
 
-<img src="assets/script/images/game-section.png" alt="game-section">
+
+<img src="assets/images/Screenshot-timer.png" alt="game-section">
+
 
 # The Banner
 
@@ -60,21 +65,29 @@ I have called this game the way i did was because of a personal level it means q
 
 ## Timer
 I have incorporated a timer to make this game more challenging. 
-<img src="assets/script/images/timer.png" alt="timer">
+When there are 10 seconds remaing, the user will get a massegu to let them know that how much time they have left.
+When the timer gets to 0 the page will refresh and restart the game. 
+In addition, once the user anwers all the quiestion, they will have the change to restart the game. Only if they answer all the quiestions, but there is very little time to complete the game as part of the challenge.
+<img src="assets/images/timer.png" alt="timer">
 
 ## Game Rules
 
 I incorporated Game Rules easy the access with a hover effect, games rules can be found at any stage of the game. 
-<img src="assets/script/images/game-rules.png" alt="game-rules">
+<img src="assets/images/Screenshot-rules.png" alt="rules">
+
 
 ## Right or Wrong answer feedback 
 
 I have created an easy way to give the user feedback. if they click the right answer, backward screen will turn Green, and if they click the wrong answer, backward screen will turn Red, the user will also be indicated which one is the right answer if the choose their answer isn't correct, they will know this by looking at the button's color. 
+The user can click on the wrong answer once they get feedback if they have answered correctly.
+I have not included a score tracking system as that is not the goal of this game, the game is meant to be aducational and the user can play as many times as they want without feeling defeated. 
+
 ## Right answer
-<img src="assets/script/images/right-answer.png" alt="right-answer">
+<img src="assets/images/Screenshot-right.png" alt="right-answer">
 
 ## Wrong answer
-<img src="assets/script/images/wrong-answer.png" alt="wrong">
+<img src="assets/images/Screenshot-wrong.png" alt="wrong-answer">
+
 
 # Testing
 ## Validator tasting 
@@ -91,12 +104,13 @@ I have created an easy way to give the user feedback. if they click the right an
    - Function with the largest signature take 2 arguments, while the median is 0.5.
    - Largest function has 8 statements in it, while the median is 2.
    - The most complex function has a cyclomatic complexity value of 2 while the median is 1.
+   https://jshint.com/
 
 # Accessibility
 - I confirm that after passing through the Lighthouse in devtool the font choose is clearly readable.
 
 # Performance
-<img src="assets/script/images/performance.png" alt="peformance">
+<img src="assets/images/Screenshot-lighthouse.png" alt="peformance">
 
 # Bugs
 - No bugs were found during this project
@@ -123,14 +137,13 @@ I have created an easy way to give the user feedback. if they click the right an
 
 # Favicon
 - Favicon was created by mymyself using Blender
-<img src="assets/script/images/Donut-logo-favicon.png" alt="favicon">
+<img src="assets/images/Donut-logo-favicon.png" alt="favicon">
 
 
 # Reference Material
 - Used W3School to deepen some topic for site improving such as Javascript timer, funtions, and hidding content.
 - I used W3 School to learn about CSS animations ans hover effects.
-- I use Udemy online school to lear how to create £d images on Blender
-<img src="assets/script/images/blender-image.png" alt="Blender image">
+- I use Udemy online school to lear how to create 3D images on Blender
 
 # Acknowledgements
 I would like to thank my mentor Jubril Akolade who providel mentoring during the development of this project giving me valuable advice on how improve the site from start to finish.
