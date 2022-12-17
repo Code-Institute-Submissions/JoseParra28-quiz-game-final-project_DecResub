@@ -11,8 +11,8 @@ const message = document.getElementById("message")
 document.getElementById("message").style.display = "none";
 let shuffledQuestions, currentQuestionIndex
 
-/* Start button */
-//startButton.addEventListener('click', startGame)
+/* Start button Code from Wed dev simplified */
+
 nextButton.addEventListener('click', () => {
   questionCount.innerText = parseInt(questionCount.innerText) + 1
   currentQuestionIndex++
@@ -21,7 +21,7 @@ nextButton.addEventListener('click', () => {
 startButton.addEventListener('click', startGame)
 
 /* timer */
-let timeleft = 30;
+let timeleft = 60;
 let downloadTimer = setInterval(function () {
   
   if (timeleft <= 0) {
@@ -53,7 +53,7 @@ function validateForm() {
 function setVisibility() {
   validateForm()
 }
-/* hide funtion */
+/* hide funtion Code from Wed dev simplified */
 function startGame() {
   startButton.classList.add('hide')
   shuffledQuestions = questions.sort(() => Math.random() - .5)
@@ -61,7 +61,7 @@ function startGame() {
   questionContainerElement.classList.remove('hide')
   setNextQuestion()
 }
-/* next question funtion */
+/* next question funtion Code from Wed dev simplified*/
 function setNextQuestion() {
 
   resetState()
