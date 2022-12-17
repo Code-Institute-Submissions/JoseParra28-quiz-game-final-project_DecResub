@@ -209,6 +209,9 @@ body.correct {
     backdrop-filter: blur(20px);
     display: inline;
 }
+#message {
+font-size: 2em;
+}
 
 .input {
     padding: 0%;
@@ -229,18 +232,7 @@ font-size: 2em;
     background-color: black;
     color: whitesmoke;
 }
-#game-over{
-    bottom: 28%;
-    left: 20%;
-    right: 20%;
-    justify-content: center;
-    padding: 6% 16%;
-    position:fixed;
-    z-index: 222;
-    background-color: rgba(255,255, 255, 0.1);
-    backdrop-filter: blur(20px);
-    display: inline;
-}
+
 /* Animation */
 .cupcake img {
     width: 50px;

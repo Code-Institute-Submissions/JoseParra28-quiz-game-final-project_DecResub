@@ -5,24 +5,38 @@ const questionElement = document.getElementById('question')
 const answerButtonsElement = document.getElementById('answer-buttons')
 let questionCount = document.getElementById("question-count")
 const username = document.getElementById("username")
-const validateMessage = document.getElementById("message")
-const gameOver = document.getElementById('game-over')
+const message = document.getElementById("message")
 
 
-
+document.getElementById("message").style.display = "none";
 let shuffledQuestions, currentQuestionIndex
 
 /* Start button */
-startButton.addEventListener('click', startGame)
+//startButton.addEventListener('click', startGame)
 nextButton.addEventListener('click', () => {
   questionCount.innerText = parseInt(questionCount.innerText) + 1
   currentQuestionIndex++
   setNextQuestion()
 })
+startButton.addEventListener('click', startGame)
 
-document.getElementById("message").style.display = "none";
-document.getElementById("game-over").style.display = "none";
+/* timer */
+let timeleft = 15;
+let downloadTimer = setInterval(function () {
+  if (timeleft <= 0) {
+    clearInterval(downloadTimer);
+    window.location.reload();
+    document.getElementById("countdown").innerHTML = "Game over!";
+  } if 
+  (timeleft === 10)
+  document.getElementById("countdown").innerHTML = timeleft + "Last few seconds";
+   else {
+    document.getElementById("countdown").innerHTML = timeleft + "Seconds Remaining";
 
+
+  }
+  timeleft -= 1;
+}, 1000);
 function validateForm() {
   if (username.value.trim() == "") {
     document.getElementById("message").style.display = "flex";
@@ -31,14 +45,13 @@ function validateForm() {
     const formSection = document.getElementById("form-section")
     formSection.style.display = 'none'
     startGame()
-    showGame()
+    
   }
 }
 
 function setVisibility() {
   validateForm()
 }
-
 /* hide funtion */
 function startGame() {
   startButton.classList.add('hide')
@@ -89,6 +102,7 @@ function selectAnswer(e) {
     startButton.innerText = 'Restart'
     startButton.classList.remove('hide')
   }
+   
 }
 
 function setStatusClass(element, correct) {
@@ -121,6 +135,54 @@ const questions = [
       },
       {
         text: 'Royal Icing',
+        correct: true
+      },
+    ]
+  },
+  {
+    question: 'What type of pastry is better?',
+    answers: [{
+        text: 'French',
+        correct: true
+      },
+      {
+        text: 'Irish',
+        correct: true
+      },
+    ]
+  },
+  {
+    question: 'What is Tiramisu?',
+    answers: [{
+        text: 'A drink',
+        correct: false
+      },
+      {
+        text: 'A dessert',
+        correct: true
+      },
+    ]
+  },
+  {
+    question: 'What is pectin NH?',
+    answers: [{
+        text: 'Raising agent',
+        correct: false
+      },
+      {
+        text: 'Setting agent',
+        correct: true
+      },
+    ]
+  },
+  {
+    question: 'What is an Entremet',
+    answers: [{
+        text: 'Type of bread',
+        correct: false
+      },
+      {
+        text: 'Multi-layer mousse cake',
         correct: true
       },
     ]
@@ -179,26 +241,9 @@ const questions = [
 ]
 
 
+
+
+
 let questionLength = document.getElementById("question-length")
 questionLength.innerText = questions.length
-
-/* timer */
-let timeleft = 5;
-let downloadTimer = setInterval(function () {
-  if (timeleft <= 0) {
-    clearInterval(downloadTimer);
-    document.getElementById("game-over").style.display = "flex";
-    startButton.addEventListener('click', startGame)
-   
-    // window.location.reload();
-    startGame()
-    
-    document.getElementById("countdown").innerHTML = "Game over";
-  } else {
-    document.getElementById("countdown").innerHTML = timeleft + "Seconds Remaining";
-
-
-  }
-  timeleft -= 1;
-}, 1000);
 
